@@ -1,0 +1,118 @@
+FORM_QUOTATION : 4
+*************************************
+FormCareer : 3
+*************************************
+FORM_RGPD : 23
+*************************************
+FORM_MAINTENANCE_RENOVATION : 2
+*************************************
+FORM_EVENT_REGISTRATION : 2
+*************************************
+FORM_APPOINTMENT_REQUEST : 4
+*************************************
+FormCommercialContact : 2
+*************************************
+FORM_DOCUMENTATION_REQUEST : 8
+*************************************
+FORM_CONTACT : 2
+*************************************
+FORM_INFORMATION_REQUEST : 8
+*************************************
+CEMEX_SELF_LEVELING_FLOOR_CALCULATOR : 9
+*************************************
+FormExperensol : 2
+*************************************
+CEMEX_MAP_SEARCH : 22
+*************************************
+cemexco2portlet_WAR_cemexco2001SNAPSHOT : 6
+*************************************
+CEMEX_READYMIX_CONCRETE_CALCULATOR : 18
+*************************************
+cemexformdataforwarderadminpanelapp : 0
+*************************************
+CEMEX_QUERY_STRING_FORM : 4
+*************************************
+CEMEX_UK_SELF_LEVELING_FLOOR_CALCULATOR : 1
+*************************************
+com_liferay_user_associated_data_web_portlet_UserAssociatedData : 0
+*************************************
+com_liferay_analytics_settings_web_portlet_AnalyticsAdminPortlet : 0
+*************************************
+srv : 1
+*************************************
+com_mediamonks_cemex_ctablock_web_BlockCtaPortlet : 4
+*************************************
+com_mediamonks_cemex_articleList_web_ArticleListPortlet : 1
+*************************************
+com_mediamonks_cemex_herohome_web_HeroHomePortlet : 1
+*************************************
+com_mediamonks_cemex_productGrid_web_ProductGridPortlet : 3
+*************************************
+article : 1
+*************************************
+product : 26
+*************************************
+com_mediamonks_cemex_categoryextra_web_CategoryExtraPortlet : 0
+*************************************
+contactPortlet : 0
+*************************************
+com_mediamonks_cemex_successCaseList_web_SuccessCaseListPortlet : 1
+*************************************
+com_mediamonks_cemex_herosearch_web_HeroSearchPortlet : 1
+*************************************
+com_mediamonks_cemex_heropas_web_HeroPasPortlet : 1
+*************************************
+com_mediamonks_cemex_featurecontentcard_web_FeatureContentCardPortlet : 1
+*************************************
+successCase : 2
+*************************************
+com_mediamonks_cemex_productList_web_ProductListPortlet : 1
+*************************************
+com_mediamonks_cemex_relatedcards_web_RelatedCardsPortlet : 3
+*************************************
+com_mediamonks_cemex_srvList_web_SrvListPortlet : 1
+*************************************
+com_mediamonks_cemex_evolution_backoffice_product_BackofficeProductPortlet : 0
+*************************************
+com_mediamonks_cemex_evolution_backoffice_solution_BackofficeSolutionPortlet : 0
+*************************************
+com_mediamonks_cemex_evolution_web_search_CemexEvolutionWebSearchPortlet : 1514
+*************************************
+com_mediamonks_cemex_evolution_web_solutions_catalogue_CemexEvolutionWebSolutionsCataloguePortlet : 12
+*************************************
+com_mediamonks_cemex_evolution_web_documentation_center_CemexEvolutionWebDocumentationCenterPortlet : 18
+*************************************
+com_mediamonks_cemex_evolution_backoffice_productline_BackofficeProductLinePortlet : 0
+*************************************
+com_mediamonks_cemex_evolution_web_modules_showcase_WebModulesShowcasePortlet : 8
+*************************************
+com_mediamonks_cemex_evolution_backoffice_srv_BackofficeSrvPortlet : 0
+*************************************
+com_mediamonks_cemex_evolution_web_catalogue_WebCataloguePortlet : 44
+*************************************
+com_mediamonks_cemex_evolution_web_documentation_widget_WebDocumentationWidgetPortlet : 213
+*************************************
+com_mediamonks_cemex_evolution_web_request_a_quote_CemexEvolutionWebRequestAQuoteFormPortlet : 8
+*************************************
+com_mediamonks_cemex_evolution_web_contact_form_CemexEvolutionWebContactFormPortlet : 8
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_richtextmultimedia_CemexEvolutionWebPagetemplateRichTextMultimediaPortlet : 8
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_manage_multimedia_CemexEvolutionWebPageTemplateManageMultimediaPortlet : 10
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_products_variants_CemexEvolutionWebPageTemplateProductsVariantsPortlet : 9
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_cards_CemexEvolutionWebPageTemplateCardsPortlet : 10
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_content_hero_unit_CemexEvolutionWebPageTemplateContentHeroUnitPortlet : 10
+*************************************
+com_mediamonks_cemex_evolution_web_pagetemplate_halftext_CemexEvolutionWebPageTemplateHalfTextPortlet : 10
+*************************************
+com_mediamonks_cemex_evolution_web_map_search_CemexMapSearchPortlet : 2
+*************************************
+com_mediamonks_cemex_evolution_web_personalized_product_display_WebPersonalizedProductDisplayPortlet : 7
+*************************************
+com_mediamonks_cemex_evolution_web_featured_products_WebFeaturedProductsPortlet : 6
+*************************************
+vertua_calculator : 0
+*************************************

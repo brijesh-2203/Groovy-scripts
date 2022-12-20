@@ -1,0 +1,39 @@
+import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.service.DDMStructureLocalServiceUtil;
+import com.liferay.portal.kernel.xml.SAXReaderUtil;
+import com.liferay.portal.kernel.xml.Document;
+
+out.println("No. of Templates:  "+DDMTemplateLocalServiceUtil.getTemplatesCount(20121));
+out.println("No. of structures:  "+DDMStructureLocalServiceUtil.getStructuresCount(20121));
+
+def numberOfDDMs = DDMStructureLocalServiceUtil.getDDMStructuresCount();
+def listAllStruc = DDMStructureLocalServiceUtil.getDDMStructures(0,numberOfDDMs);
+def listofIds = [];
+for(def stc in listAllStruc)
+{
+     if(stc.getStructureKey().contains("BASIC"))
+    {
+       listofIds.add(stc.getStructureId());
+       break;
+     }
+}
+
+def str  = DDMStructureLocalServiceUtil.getStructures(20121);
+
+for(def struc in str)
+{
+    listofIds.add(struc.getStructureId());
+}
+
+def count = 0;
+for(int i=0;i<listofIds.size();i++)
+{
+def t = DDMTemplateLocalServiceUtil.getTemplates(listofIds.get(i));
+for(def teo in t)
+{
+count++;
+Document doc = SAXReaderUtil.read(teo.getName());
+
+out.println(count+   "    "+doc.getStringValue().replaceAll("\\<.*?>", "")+ "  :  "+teo.getTemplateId());
+}
+}

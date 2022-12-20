@@ -1,0 +1,26 @@
+
+<div class="component-card text-break">
+	<div class="card m-0 overflow-hidden">
+		<img alt=""  data-lfr-editable-id="01-img" data-lfr-editable-type="image" src="http://localhost:8080//documents/d/guest/inet" />
+
+		<div class="card-body py-4">
+			<h2>
+				<span class="clearfix" data-lfr-editable-id="02-title" data-lfr-editable-type="rich-text">
+					Card Title example
+				</span>
+			</h2>
+
+			<div class="clearfix mb-4" data-lfr-editable-id="03-content" data-lfr-editable-type="rich-text">
+				<p>
+					This is an example of quick text to fill the body of the
+					card with some content in order to present it properly in
+					page. We hope you like it.
+				</p>
+			</div>
+
+			<a class="link" data-lfr-editable-id="04-link" data-lfr-editable-type="link" href="" >
+				Go Somewhere
+			</a>
+		</div>
+	</div>
+</div>

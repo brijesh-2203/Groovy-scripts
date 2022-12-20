@@ -1,0 +1,61 @@
+<#assign dlService = serviceLocator.findService("com.liferay.document.library.kernel.service.DLFileEntryLocalService")>
+<#assign ddmFieldLocalService = serviceLocator.findService("com.liferay.dynamic.data.mapping.service.DDMFieldLocalService")/>
+<#assign ddmStructure=serviceLocator.findService("com.liferay.dynamic.data.mapping.service.DDMStructureLocalService")/>
+
+<#assign js=serviceLocator.findService("com.liferay.journal.service.JournalArticleLocalService") />
+
+<#assign webcontent=js.getArticles() />
+	
+	<#list webcontent as web>
+		<#assign ddmStructure = web.getDDMStructure() />
+            <#assign ddmForm = ddmStructure.getDDMForm()/>
+            <#assign ddmFormValues = ddmFieldLocalService.getDDMFormValues(ddmForm, web.getId()) />
+            <#assign ddmFormFieldValues = ddmFormValues.getDDMFormFieldValues() />
+
+            <#list ddmFormFieldValues as fieldName>
+                <#if fieldName.getFieldReference() = 'Surname'>
+                  Surname:   ${fieldName.getValue().getString(locale)}
+                </#if>
+  						  <#if fieldName.getFieldReference() = 'Addd'>
+                  Addd:  ${fieldName.getValue().getString(locale)}
+                </#if>
+             
+								<#if fieldName.getFieldReference() = 'Name'>
+                  Name:   ${fieldName.getValue().getString(locale)}
+                </#if>
+								<#if fieldName.getFieldReference() = 'Date'>
+                   Date:  ${fieldName.getValue().getString(locale)}
+                </#if>
+            		<#if fieldName.getFieldReference() = 'Image'>
+									<#assign mapdata = fieldName.getValue().getString(locale)?eval/>
+                   Image: ${mapdata.url}
+									<img src="${mapdata.url}" />
+									</#if>
+							<br>
+            </#list>
+		
+		
+		
+		</#list>
+<#if entries?has_content>
+    <#list entries as entry>
+        <#if entry.getClassName() = "com.liferay.journal.model.JournalArticle" >      
+            <#assign assetRenderer = entry.getAssetRenderer()/>
+            <#assign journalArticle = assetRenderer.getAssetObject() />
+            <#assign ddmStructure = journalArticle.getDDMStructure() />
+            <#assign ddmForm = ddmStructure.getDDMForm()/>
+            <#assign ddmFormValues = ddmFieldLocalService.getDDMFormValues(ddmForm, journalArticle.getId()) />
+            <#assign ddmFormFieldValues = ddmFormValues.getDDMFormFieldValues() />
+hello
+            <#list ddmFormFieldValues as fieldName>
+                <#if fieldName.getFieldReference() = 'Surname'>
+                    ${fieldName.getValue().getString(locale)}
+                </#if>
+
+                <#if fieldName.getFieldReference() = 'Date'>
+                    ${fieldName.getValue().getString(locale)}
+                </#if>
+            </#list>
+        </#if>
+    </#list>
+</#if>

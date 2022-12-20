@@ -1,0 +1,122 @@
+Available Themes:
+Theme Name: Admin,   Theme Id : admin_WAR_admintheme
+Theme Name: Classic,   Theme Id : classic_WAR_classictheme
+Theme Name: Dialect,   Theme Id : dialect_WAR_dialecttheme
+Theme Name: Minium,   Theme Id : minium_WAR_miniumtheme
+Theme Name: My Liferay Theme,   Theme Id : myliferaytheme_WAR_myliferaytheme
+Theme Name: Speedwell,   Theme Id : speedwell_WAR_speedwelltheme
+Theme Name: demo classic theme,   Theme Id : democlassictheme_WAR_democlassicthemetheme
+Theme Name: demo theme,   Theme Id : demotheme_WAR_demothemetheme
+************************************************************************************
+
+
+
+Site Wise Theme Applied:  
+SiteName: Commerce_Site_Demo,    Site Theme: Speedwell
+   Page Name: Login,   Page Theme:   Speedwell
+   Page Name: Catalog,   Page Theme:   Speedwell
+   Page Name: Pending Orders,   Page Theme:   Speedwell
+   Page Name: Placed Orders,   Page Theme:   Speedwell
+   Page Name: Account Management,   Page Theme:   Speedwell
+   Page Name: Lists,   Page Theme:   Speedwell
+   Page Name: Search,   Page Theme:   Speedwell
+   Page Name: product,   Page Theme:   Classic
+   Page Name: Product Detail,   Page Theme:   Speedwell
+   Page Name: Compare,   Page Theme:   Speedwell
+   Page Name: Checkout,   Page Theme:   Speedwell
+SiteName: Commerce_SpeedWell,    Site Theme: Speedwell
+   Page Name: Home,   Page Theme:   Speedwell
+   Page Name: Catalog,   Page Theme:   Speedwell
+   Page Name: My Account,   Page Theme:   Speedwell
+   Page Name: My Cart,   Page Theme:   Speedwell
+   Page Name: Product Detail,   Page Theme:   Speedwell
+   Page Name: Checkout,   Page Theme:   Speedwell
+   Page Name: Compare,   Page Theme:   Speedwell
+   Page Name: Search,   Page Theme:   Speedwell
+   Page Name: Category,   Page Theme:   Speedwell
+   Page Name: My Orders,   Page Theme:   Speedwell
+   Page Name: Login &amp; Security,   Page Theme:   Speedwell
+   Page Name: My Addresses,   Page Theme:   Speedwell
+   Page Name: My Subscriptions,   Page Theme:   Speedwell
+   Page Name: My Downloads,   Page Theme:   Speedwell
+   Page Name: My Lists,   Page Theme:   Speedwell
+   Page Name: My Payment Methods,   Page Theme:   Speedwell
+SiteName: DemoCommerceSite,    Site Theme: Speedwell
+   Page Name: Home,   Page Theme:   Speedwell
+   Page Name: Catalog,   Page Theme:   Speedwell
+   Page Name: My Account,   Page Theme:   Speedwell
+   Page Name: My Cart,   Page Theme:   Speedwell
+   Page Name: Product Detail,   Page Theme:   Speedwell
+   Page Name: Checkout,   Page Theme:   Speedwell
+   Page Name: Compare,   Page Theme:   Speedwell
+   Page Name: Search,   Page Theme:   Speedwell
+   Page Name: Category,   Page Theme:   Speedwell
+   Page Name: My Orders,   Page Theme:   Speedwell
+   Page Name: Login &amp; Security,   Page Theme:   Speedwell
+   Page Name: My Addresses,   Page Theme:   Speedwell
+   Page Name: My Subscriptions,   Page Theme:   Speedwell
+   Page Name: My Downloads,   Page Theme:   Speedwell
+   Page Name: My Lists,   Page Theme:   Speedwell
+   Page Name: My Payment Methods,   Page Theme:   Speedwell
+SiteName: demooedd LFR_ORGANIZATION,    Site Theme: Classic
+SiteName: Employee,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+   Page Name: Private,   Page Theme:   Classic
+   Page Name: 404,   Page Theme:   Classic
+   Page Name: Account Settings,   Page Theme:   Classic
+   Page Name: Apply,   Page Theme:   Classic
+   Page Name: Blog,   Page Theme:   Classic
+   Page Name: Courses,   Page Theme:   Classic
+   Page Name: My Learning,   Page Theme:   Classic
+   Page Name: Notifications,   Page Theme:   Classic
+   Page Name: Sign In,   Page Theme:   Classic
+SiteName: ewdrtfghj LFR_ORGANIZATION,    Site Theme: Classic
+SiteName: MYDEMOSITE,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+SiteName: org LFR_ORGANIZATION,    Site Theme: Classic
+SiteName: SiteInitializer,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+SiteName: SiteInitializerDDM,    Site Theme: Dialect
+   Page Name: Learn,   Page Theme:   Dialect
+SiteName: tete LFR_ORGANIZATION,    Site Theme: Classic
+SiteName: Control Panel,    Site Theme: Classic
+   Page Name: Control Panel,   Page Theme:   Classic
+SiteName: Demo_site2,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+SiteName: Demo_site3,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+   Page Name: ddmo,   Page Theme:   Classic
+SiteName: DemoSite,    Site Theme: Classic
+   Page Name: Home,   Page Theme:   Classic
+   Page Name: page1,   Page Theme:   Classic
+   Page Name: Practice Page,   Page Theme:   Classic
+SiteName: Forms,    Site Theme: Classic
+   Page Name: Shared,   Page Theme:   Classic
+   Page Name: Shared,   Page Theme:   Classic
+SiteName: User Personal Site,    Site Theme: Classic
+SiteName: Guest,    Site Theme: demo classic theme
+   Page Name: Home,   Page Theme:   demo classic theme
+   Page Name: SearchالبحثCerca搜索ZoekenHakuRechercherSucheKeresés検索BuscaBúsquedaSök,   Page Theme:   demo classic theme
+   Page Name: TaskPage,   Page Theme:   demo classic theme
+   Page Name: userpage,   Page Theme:   demo classic theme
+   Page Name: kkkzjxkzj,   Page Theme:   demo classic theme
+   Page Name: HomePagejzja,   Page Theme:   demo classic theme
+   Page Name: Assetss,   Page Theme:   demo classic theme
+   Page Name: GuestBook,   Page Theme:   demo classic theme
+   Page Name: Fieldgrouppage,   Page Theme:   demo classic theme
+   Page Name: test,   Page Theme:   demo classic theme
+   Page Name: WEBCONte,   Page Theme:   demo classic theme
+   Page Name: BloggPage,   Page Theme:   demo classic theme
+   Page Name: Layoutss,   Page Theme:   demo classic theme
+   Page Name: Layout widgetLayout widget,   Page Theme:   demo theme
+   Page Name: linkpage1,   Page Theme:   demo classic theme
+   Page Name: linkpage2,   Page Theme:   demo classic theme
+   Page Name: LinkPage,   Page Theme:   demo classic theme
+   Page Name: PracticePage(Project),   Page Theme:   demo classic theme
+   Page Name: BrijeshPersonalPage,   Page Theme:   demo classic theme
+   Page Name: Product Page,   Page Theme:   demo classic theme
+   Page Name: Search Page,   Page Theme:   demo classic theme
+   Page Name: Pageset,   Page Theme:   demo classic theme
+   Page Name: LinkedInpage,   Page Theme:   demo classic theme
+   Page Name: linkedin,   Page Theme:   demo classic theme
+   Page Name: Childpage1,   Page Theme:   demo classic theme

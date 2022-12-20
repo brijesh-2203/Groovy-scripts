@@ -1,0 +1,42 @@
+import com.liferay.journal.service.JournalArticleLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.service.DDMFieldLocalServiceUtil;
+import com.liferay.document.library.kernel.service.DLFileEntryLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.storage.DDMFormValues;
+import com.liferay.dynamic.data.mapping.storage.DDMFormFieldValue;
+import com.liferay.dynamic.data.mapping.model.Value;
+
+import com.liferay.dynamic.data.mapping.model.LocalizedValue;
+import com.liferay.journal.model.JournalArticle;
+def data = ['{ "geometry": { "coordinates": [ 134.4892656, 7.34748749999999 ], "type": "Point" }, "type": "Feature", "properties": { "hours": "9am - 5pm", "phone": "(680)4882254", "city": "KOROR, PALAU", "postalCode": "96940", "name": "**DO NOT USE** ALBATROSS PALAU, KOROR, PALAU, PO BOX12 NGERCHEMAI HAMLET, 96940", "description": "**DO NOT USE** ALBATROSS PALAU", "category": "Merchant", "storeid": "cx-ph-00131", "region": "" } }', '{ "geometry": { "coordinates": [ 123.936898, 10.3495237 ], "type": "Point" }, "type": "Feature", "properties": { "hours": "9am - 5pm", "phone": "(032)422-9365", "city": "MANDAUE CITY", "postalCode": "6014", "name": "**PLS DO NOT USE** PLD CONSTRUCTION, TABOK, MANDAUE CITY, PC SUICO ST,, 6014", "description": "**PLS DO NOT USE** PLD CONSTRUCTION", "category": "Merchant", "storeid": "cx-ph-00132", "region": "TABOK" } }']
+def article = JournalArticleLocalServiceUtil.getArticle(20121,"47941");
+def ddmStructure =  article.getDDMStructure();
+def ddmForm = ddmStructure.getDDMForm();
+def ddmFormValues = DDMFieldLocalServiceUtil.getDDMFormValues(ddmForm, article.getId());
+def ddmFormFieldValues = ddmFormValues.getDDMFormFieldValues();
+List<DDMFormFieldValue> ddmf  = new ArrayList<DDMFormFieldValue>();
+
+for(dffv in ddmFormFieldValues)
+{
+     ddmf.add(dffv);
+} 
+
+  for(def d in data)
+   {
+         for(def doc in ddmFormFieldValues )
+          {
+                  if(doc.getFieldReference()=="Text38705711")
+                   {
+                        DDMFormFieldValue df = new DDMFormFieldValue();
+
+                         LocalizedValue v =new LocalizedValue();
+                          v.addString(v.getDefaultLocale() ,d);
+                          df.setValue(v);
+                          df.setFieldReference(doc.getFieldReference());
+                          df.setName("Text38705711");
+                          ddmf.add(df);
+                         break;
+                    }
+              }
+}
+ddmFormValues.setDDMFormFieldValues(ddmf);
+DDMFieldLocalServiceUtil.updateDDMFormValues(47933,article.getId(),ddmFormValues);

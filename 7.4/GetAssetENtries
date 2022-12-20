@@ -1,0 +1,67 @@
+	<h2 class="heading">NEWS</h2>
+
+<div class="news-wrapper">
+
+
+
+<#foreach curEntry in entries>
+
+
+<#assign  newstitle=curEntry.getTitle(locale)/>
+
+
+<#assign newssummary =curEntry.getSummary(locale)/>
+
+
+<#assign renderer = curEntry.getAssetRenderer()/>
+
+	<#assign  article = renderer.getArticle()/>
+
+
+		<#assign ddmStructure = article.getDDMStructure() />
+            <#assign ddmForm = ddmStructure.getDDMForm()/>
+	<#assign 	renderForm = renderer.getDDMFormValuesReader() />
+            <#assign ddmFormValues = renderForm.getDDMFormValues()  />
+            <#assign ddmFormFieldValues = ddmFormValues.getDDMFormFieldValues() />
+
+            <#list ddmFormFieldValues as fieldName>
+								<#if fieldName.getFieldReference() = 'Name'>
+                  Name:   ${fieldName.getValue().getString(locale)}
+                </#if>
+            		<#if fieldName.getFieldReference() = 'Image'>
+									<#assign mapdata = fieldName.getValue().getString(locale)?eval/>
+                   Image: ${mapdata.url}
+									<img src="${mapdata.url}" />
+									</#if>
+							<br>		
+		
+		
+		</#list>
+	
+	
+
+
+<#assign viewURL = assetPublisherHelper.getAssetViewURL(renderRequest, renderResponse, curEntry)/>
+
+<#assign viewURL = renderer.getURLViewInContext(renderRequest, renderResponse, viewURL)/>
+
+ <div class="row-fluid">
+
+
+
+<div class="headline-content span8">
+
+<div class="newstitle">${curEntry.getTitle(locale)}</div>
+
+
+<div class="desc">${curEntry.getSummary(locale)}</div>
+
+<div class="read-more"><a href="${viewURL}">Read More</a></div>
+
+</div>
+
+</div>  
+
+
+	</#foreach>
+	</div>

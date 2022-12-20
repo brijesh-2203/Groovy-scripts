@@ -1,0 +1,50 @@
+import com.liferay.portal.kernel.service.ClassNameLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutSetLocalServiceUtil;
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+ 
+def classCount = ClassNameLocalServiceUtil.getClassNamesCount();
+def  classes  = ClassNameLocalServiceUtil.getClassNames(0, classCount);
+def classNameId = ClassNameLocalServiceUtil.getClassNameId("com.liferay.portlet.display.template.PortletDisplayTemplate") ;
+
+def tempCount = DDMTemplateLocalServiceUtil.getDDMTemplatesCount();
+def  templates  = DDMTemplateLocalServiceUtil.getDDMTemplates(0,tempCount);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+
+out.println("----------------------------------------------------SiteWise ADTs-----------------------------------------------------------------------------------");
+ def siteCount = GroupLocalServiceUtil.getGroupsCount();
+ def group = GroupLocalServiceUtil.getGroups(0,siteCount);
+    for(site in group)
+     {
+            def siteName =  site.getGroupKey();
+             def siteId = site.getGroupId();
+             if(pattern.matcher(siteName).matches())
+             {
+                    def siteNameFlag=0;
+                   for(cls in classes)
+                   {
+                         def flag = 0;
+                          for(temp in templates)
+                           {
+                               if(siteId==temp.groupId && temp.getResourceClassNameId() == classNameId &&   !pattern.matcher(temp.getTemplateKey()).matches() && siteNameFlag==0)
+                                           {
+                                                   out.println();
+                                                    out.println("SiteName: " +siteName);
+                                                     siteNameFlag=1;
+                                            }
+ 
+                                 if(flag==0 && cls.classNameId==temp.classNameId && temp.getResourceClassNameId() == classNameId &&   !pattern.matcher(temp.getTemplateKey()).matches() && siteId==temp.groupId) 
+                                          {
+                                                 out.println("      ClassName: "+cls.value);
+                                                   flag = 1;
+                                           }
+        
+                                            if(cls.classNameId==temp.classNameId && temp.getResourceClassNameId() == classNameId &&   !pattern.matcher(temp.getTemplateKey()).matches() && siteId==temp.groupId)
+                                            {         
+                                                           out.println("            ADT Name: "+temp.name.replaceAll("\\<.*?>", ""));         
+                                              }
+                             }
+                     }     
+            }
+     }

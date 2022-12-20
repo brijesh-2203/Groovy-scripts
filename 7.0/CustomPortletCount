@@ -1,0 +1,17 @@
+	import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+import com.liferay.portal.kernel.service.PortletLocalServiceUtil
+def portletCount = 	PortletLocalServiceUtil.getPortletsCount() ;
+def customPortlets=[];
+def  allPortlets=PortletLocalServiceUtil.getPortlets(130,portletCount) ;
+out.println("portlet count:  "+portletCount);
+def count =130;
+for(portlet in allPortlets)
+{
+    count++;
+     out.println("Count :"+count+" Portlet Name :  "+portlet.portletId);
+    customPortlets.add('"'+portlet.portletId+'"');
+}
+
+out.println("Array "+customPortlets);
+out.println("Array size "+customPortlets.size());

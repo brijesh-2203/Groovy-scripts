@@ -1,0 +1,28 @@
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+def count = GroupLocalServiceUtil.getGroupsCount();
+def group = GroupLocalServiceUtil.getGroups(0,count);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+for(site in group)
+{
+   def siteName =  site.getGroupKey();
+    def siteId = site.getGroupId();
+    if(pattern.matcher(siteName).matches())
+   {
+       def pageCount = LayoutLocalServiceUtil.getLayoutsCount(siteId);
+      def allPages = LayoutLocalServiceUtil.getLayouts(siteId,0,pageCount,null);
+   
+      for(page in allPages)
+     {
+           def pageName=page.getName().replaceAll("\\<.*?>", "");
+           out.println("page name : " +page.getName().replaceAll("\\<.*?>", "")+"  PageID: "+page.plid);
+        if(pageName == "BrijeshPersonalPage")
+{
+            def portlet = page.getEmbeddedPortlets() ;
+            out.println("portlet name: "+portlet.portletId);
+}
+       }
+out.println("count :"+ pageCount);
+     out.println("Site Name: "+ site.getGroupKey()+ " ,  Site ID:"+site.getGroupId());
+}
+}

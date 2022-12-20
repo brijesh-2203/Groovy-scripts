@@ -1,0 +1,13 @@
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+
+def count = GroupLocalServiceUtil.getGroupsCount();
+def grop = GroupLocalServiceUtil.getGroups(0,count);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+for(group in grop)
+{
+def ss =  group.getGroupKey();
+if(pattern.matcher(group.getGroupKey()).matches()){
+     out.println("Site Name: "+ group.getGroupKey()+ " ,  Site ID:"+group.getGroupId());
+}
+}
+

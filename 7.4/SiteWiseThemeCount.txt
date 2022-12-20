@@ -1,0 +1,50 @@
+import com.liferay.portal.kernel.service.LayoutSetLocalServiceUtil;
+import com.liferay.portal.kernel.service.ThemeLocalServiceUtil;
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+
+def defaultTheme = ["Admin","Classic","Dialect","Minium","Speedwell"] ;
+def themes = ThemeLocalServiceUtil.getThemes(20097) ;
+out.println("Custom Themes:");
+for(def theme in themes)
+{
+             if(!defaultTheme.contains(theme.getName())) {
+                         out.println("Theme Name: "+theme.getName()+",   Theme Id : " +theme.getThemeId());
+            }
+}
+
+out.println("Site Wise Theme Applied:  "); 
+for(def theme in themes)
+{
+ 
+             if(!defaultTheme.contains(theme.getName()))
+             {
+                         out.println("Theme Name: "+theme.getName());
+                      def siteCount = GroupLocalServiceUtil.getGroupsCount();
+                      def group = GroupLocalServiceUtil.getGroups(0,siteCount);
+                      def pattern = ~/.*[a-zA-Z]+.*/ ;
+                     for(site in group)
+                     {
+                            def siteName =  site.getGroupKey();
+                            def siteId = site.getGroupId();
+ 
+                                    if(pattern.matcher(siteName).matches())
+                                     {
+                                          def siteTheme = LayoutSetLocalServiceUtil.getLayoutSet(siteId,false); 
+                                        if(siteTheme.getTheme().getName().equals(theme.getName())){
+                                           out.println("     SiteName: " +siteName);}
+
+                                           def pageCountSiteWise = LayoutLocalServiceUtil.getLayoutsCount(siteId);
+                                           def allPagesSiteWise = LayoutLocalServiceUtil.getLayouts(siteId,0,pageCountSiteWise,null);
+
+                                           for(page in allPagesSiteWise)
+                                            {
+                                               if(page.getTheme().getName().equals(theme.getName()))
+                                                    {
+                                                         out.println("       Page Name: "+page.getName().replaceAll("\\<.*?>", ""));
+                                                     }
+                                             }
+                                    }
+                      }
+             }
+}

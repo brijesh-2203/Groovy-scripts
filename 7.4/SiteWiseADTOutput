@@ -1,0 +1,1040 @@
+----------------------------------------------------SiteWise ADTs-----------------------------------------------------------------------------------
+
+SiteName: CEMEX Egypt
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: Carousel
+            ADT Name: Cards Three Columns
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Links Three Columns with Summary
+            ADT Name: One Column River of Links
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training Hub
+            ADT Name: Pages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: CEMEX Language Selector
+
+SiteName: CEMEX Energia
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Home Carousel
+            ADT Name: Landing News One Column
+            ADT Name: Eventos Layout
+            ADT Name: Historial Noticias Layout
+            ADT Name: Historial Boletines Layout
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Energía Mega Menu
+            ADT Name: CEMEX Energía Fixed Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: CEMEX Energy Language Selector
+
+SiteName: CEMEX Latam
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Link Two Columns
+            ADT Name: Cards Three Columns
+            ADT Name: Page Links One Column
+            ADT Name: Link Cards Three Columns
+            ADT Name: Shareholder Meeting Cards
+            ADT Name: Earnings Webcast Cards
+            ADT Name: Next Events
+            ADT Name: Navigation Butons Third Level
+            ADT Name: Carousel Home
+            ADT Name: Management Team ADT
+            ADT Name: General Use - Report Sets
+            ADT Name: Graphic Calendar
+            ADT Name: Events Investors - Home
+            ADT Name: Next Events - Home
+            ADT Name: About us - Press Releases
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Levels
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+            ADT Name: Navigation Small Buttons
+            ADT Name: Navigation Third Level with Icons- Products and Services Overview
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: CEMEX Language Selector
+
+SiteName: CEMEX Philippines
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two Columns Images
+            ADT Name: One Column River of Links
+            ADT Name: Cards brands logo
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two Columns with Summary
+            ADT Name: Testimonial
+            ADT Name: module ADT template
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: Links Row
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Brands Carousel
+            ADT Name: Carousel
+            ADT Name: Cards Three Columns
+            ADT Name: General Use - Report Sets
+            ADT Name: Investors Report Sets
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Navigation Tabs
+            ADT Name: Slide Navigation Menu
+            ADT Name: CEMEX Mega Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: test
+
+SiteName: CEMEX UAE ReadyMix
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: About Us Categories Navigation
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Product Cards
+            ADT Name: Project Cards
+            ADT Name: Map
+            ADT Name: Contact Cards
+            ADT Name: Stories - News
+            ADT Name: Home Latest News
+            ADT Name: Products Menu
+            ADT Name: Product Banner ADT
+            ADT Name: Paving Solution Cards
+            ADT Name: Applications List
+            ADT Name: NEW Home Slider ADT
+            ADT Name: Arab Test  - NEW Home Slider ADT
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: Cemex Header Menu
+
+SiteName: CEMEX UAE
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Cards Three Columns
+            ADT Name: Page Links Two Column With Images
+            ADT Name: Carousel
+            ADT Name: Links Row
+            ADT Name: Brands Home Carousel
+            ADT Name: Links Three Columns with Summary
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training Hub
+            ADT Name: Dropdown Menu
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: CEMEX Language Selector
+
+SiteName: CEMEX USA
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Media Center - Press Releases - Year - Categories Navigation
+            ADT Name: Media Center - Year - Categories Navigation
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: General Use - Report Sets
+            ADT Name: General Use - Report File
+            ADT Name: Team Member
+            ADT Name: Media Center - Stories - Related Articles
+            ADT Name: Media Center - Stories
+            ADT Name: Home - Featured Stories
+            ADT Name: Media Center - Press Releases
+            ADT Name: Home - Latest News
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Brands Carousel
+            ADT Name: List of Locations by Area
+            ADT Name: Home Stories
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Sitemap - App Display Template
+            ADT Name: Site Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Navigation Third Level
+            ADT Name: Navigation Third Level Tabs
+            ADT Name: Navigation Third Level with Icons - Life at CEMEX - Benefits and Well-being
+            ADT Name: Navigation Third Level - with Auto Scrolling
+            ADT Name: Navigation Third Level with Icons - About Us - Operational Excellence
+            ADT Name: Navigation Third Level with Icons - Microsites
+            ADT Name: Navigation Third Level with Icons - Microsites - Miami
+            ADT Name: Neogem Navigation Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: CEMEX USA Header Menu
+
+SiteName: Guest-staging
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: About Us - Categories Navigation
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: About Us - Stories
+            ADT Name: Investors - Overview - Calendar Events
+            ADT Name: About Us - Press Releases
+            ADT Name: Home - Featured Stories
+            ADT Name: About Us - Stories - Related Articles
+            ADT Name: Calendar and Events
+            ADT Name: General Use - Report File
+            ADT Name: General Use - Report Sets
+            ADT Name: TEST General Use - Report Sets
+            ADT Name: Next Events
+            ADT Name: Calendar portlet
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Events list
+            ADT Name: Next Events - Home
+            ADT Name: Media - Press Releases and Stories
+            ADT Name: Upcoming Events List
+            ADT Name: Listing - Blog DIIM
+            ADT Name: Listing - Future in Action
+            ADT Name: Press Releases Simple Design
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map - ADT
+            ADT Name: Site Map Training Hub
+            ADT Name: Site Map Investors Overview
+            ADT Name: Pages Dropdown
+            ADT Name: Pages Dropdown Investors Events
+            ADT Name: Site map FiA
+            ADT Name: Site map colored background new sust
+            ADT Name: Sitemap colored background Media
+            ADT Name: Vertua Site Map
+      ClassName: com.cemex.portal.stock.ticker.model.StockTicker
+            ADT Name: Stock Ticker
+            ADT Name: Stock Ticker - Home
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Navigation Third Level
+            ADT Name: Navigation Third Level with Icons- Building Awards
+            ADT Name: Navigation Third Level - Reports
+            ADT Name: Navigation Third Level with Icons- Building Solutions
+            ADT Name: Navigation Third Level with Icons- Products and Services Overview
+            ADT Name: Navigation Third Level - with Auto Scrolling
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Third Level Investors with Autoscrolling
+            ADT Name: Mega Menu customized
+            ADT Name: Navigation Third Level with Grey Border and Autoscrolling
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Neogem Breadcrumb
+            ADT Name: Press Releases
+            ADT Name: Blog
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: Cemex Header Menu
+            ADT Name: Cemex Header Menu Temp Version
+
+SiteName: Guest
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: About Us - Categories Navigation
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: About Us - Stories
+            ADT Name: Investors - Overview - Calendar Events
+            ADT Name: About Us - Press Releases
+            ADT Name: Home - Featured Stories
+            ADT Name: About Us - Stories - Related Articles
+            ADT Name: Calendar and Events
+            ADT Name: General Use - Report File
+            ADT Name: General Use - Report Sets
+            ADT Name: TEST General Use - Report Sets
+            ADT Name: Next Events
+            ADT Name: Calendar portlet
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Events list
+            ADT Name: Next Events - Home
+            ADT Name: Media - Press Releases and Stories
+            ADT Name: Upcoming Events List
+            ADT Name: Listing - Blog DIIM
+            ADT Name: Listing - Future in Action
+            ADT Name: Press Releases Simple Design
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map - ADT
+            ADT Name: Site Map Training Hub
+            ADT Name: Site Map Investors Overview
+            ADT Name: Pages Dropdown
+            ADT Name: Pages Dropdown Investors Events
+            ADT Name: Site map FiA
+            ADT Name: Site map dark blue background
+            ADT Name: Site map colored background new sust
+            ADT Name: Sitemap colored background Media
+      ClassName: com.cemex.portal.stock.ticker.model.StockTicker
+            ADT Name: Stock Ticker
+            ADT Name: Stock Ticker - Home
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Navigation Third Level
+            ADT Name: Navigation Third Level with Icons- Building Awards
+            ADT Name: Navigation Third Level - Reports
+            ADT Name: Navigation Third Level with Icons- Building Solutions
+            ADT Name: Navigation Third Level with Icons- Products and Services Overview
+            ADT Name: Navigation Third Level - with Auto Scrolling
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Third Level Investors with Autoscrolling
+            ADT Name: Mega Menu customized
+            ADT Name: Navigation Third Level with Grey Border and Autoscrolling
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Neogem Breadcrumb
+            ADT Name: Press Releases
+            ADT Name: Blog
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: Cemex Header Menu
+            ADT Name: Cemex Header Menu Temp Version
+
+SiteName: neogem
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Tiles
+            ADT Name: ADT_SectorPage
+            ADT Name: Tiles v2
+            ADT Name: Tiles v3
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Main menu
+
+SiteName: CEMEX Czech Republic
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories DropdownCategories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: One Column River of LinksOne Column River of LinksOne Column River of Links
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Cards brands logoCards brands logoCards brands logo
+            ADT Name: Gallery Three ColumnsGallery Three ColumnsGallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT templatemodule ADT template
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Documents and downloads - CZ
+            ADT Name: Related documents
+            ADT Name: Carousel - CZ
+            ADT Name: Links Two Columns with Summary2
+            ADT Name: Documents and downloads - CZ (w/o selects)
+            ADT Name: list of locations by area
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Carousel - CZ - New
+            ADT Name: Related documents - wide
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel Component
+            ADT Name: Product Range Component
+            ADT Name: Reference buildings - 4 columns
+            ADT Name: Reference buildings - 3 columns (random)
+            ADT Name: Reference buildings - filter for 4 columns
+            ADT Name: Reference buildings - homepage
+            ADT Name: Documents and downloads - CZ -Sousedský zpravodaj
+            ADT Name: Documents and downloads - CZ | certifikaty-kvality
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training HubSite Map Training HubSite Map Training Hub
+            ADT Name: SITE MAP FIA
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation MenuSlide Navigation Menu
+            ADT Name: CEMEX Mega Menu 3CEMEX Mega Menu 3
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: CEMEX Mega Menu v2
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrumb CEMEX - Color Gray - socialBreadcrumb CEMEX - Color Gray - social
+            ADT Name: Breadcrumb - Red
+            ADT Name: Breadcrumb - blue
+
+SiteName: CEMEX Deutschland AG
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories DropdownCategories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Carousel
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: One Column River of LinksOne Column River of LinksOne Column River of Links
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Cards brands logoCards brands logoCards brands logo
+            ADT Name: Gallery Three ColumnsGallery Three ColumnsGallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT templatemodule ADT template
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Brands Carousel Our Brands
+            ADT Name: Position Three Columns
+            ADT Name: CustomerDownloads
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Neogem - Page Links Three Columns with Summary - Germany
+            ADT Name: List of locations by area
+            ADT Name: Documents & Downloads (from czech site)
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel NEW
+            ADT Name: Carousel Component
+            ADT Name: Export locations to CSV
+            ADT Name: Cards 3 Columns - No Image
+            ADT Name: Product Range Component
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Navigation Tabs with Arrows
+            ADT Name: FIA-Sitemap
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation MenuSlide Navigation Menu
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: CEMEX Mega Menu v2
+            ADT Name: cemex-evolution-adt-n01-main-nav
+            ADT Name: cemex-evolution-adt-n01-main-nav
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrumb CEMEX - Red
+            ADT Name: Breadcrumb - Blue
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs-location
+
+SiteName: CEMEX WebSite Evolution
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: cemex-evolution-adt-n01-main-navcemex-evolution-adt-n01-main-navcemex-evolution-adt-n01-main-nav
+            ADT Name: cemex-evolution-adt-n01-main-navcemex-evolution-adt-n01-main-nav
+            ADT Name: CEMEX Mega Menu (México ADT for navigation)CEMEX Mega Menu (México ADT for navigation)
+            ADT Name: Cemex megamenu v2 (UK ADT for navigation)Cemex megamenu v2 (UK ADT for navigation)
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: cemex-evolution-adt-n05-breadcrumbscemex-evolution-adt-n05-breadcrumbscemex-evolution-adt-n05-breadcrumbs
+            ADT Name: cemex-evolution-adt-n05-breadcrumbscemex-evolution-adt-n05-breadcrumbs
+
+SiteName: CEMEX Croatia
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: One Column River of Links
+            ADT Name: Brands CarouselBrands Carousel
+            ADT Name: Links RowLinks Row
+            ADT Name: Cards brands logo
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two Columns with Summary
+            ADT Name: Testimonial
+            ADT Name: module ADT template
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: List of Locations by Area
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel Component
+            ADT Name: Product Range Component
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages DropdownPages Dropdown
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: FIA SITE MAP
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Slide Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: Cemex megamenu v2
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+
+SiteName: CEMEX UK
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: Carousel
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT template
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Cards Three Columns - No Image
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: Home-Carousel
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Cards Three Columns - Circular
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel Component
+            ADT Name: Documents - Page Links Three Columns with Summary
+            ADT Name: Product Range Component
+            ADT Name: Guides - Page Links Three Columns with Summary
+            ADT Name: Guides Template
+            ADT Name: Press Showcase Home
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training Hub
+            ADT Name: Pages Dropdown (Web Evolution)
+            ADT Name: FIA-Sitemap
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation Menu
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Cement Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: Cemex megamenu v2
+            ADT Name: cemex-evolution-adt-n01-main-nav
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrumb CEMEX - Color Blue
+            ADT Name: Breadcrumb CEMEX - Black
+            ADT Name: Breadcrumb CEMEX - Red
+            ADT Name: Breadcrumb CEMEX - Green
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs
+
+SiteName: CEMEX Costa Rica
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: Gallery Three Columns with Summary
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Management Team ADT
+            ADT Name: One Column River of Links
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Guatemala
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Cards Three Columns
+            ADT Name: General Use - Report SetsGeneral Use - Report Sets
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Gallery Two ColumnsGallery Two Columns
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Management Team ADT
+            ADT Name: Gallery Three Columns
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Nicaragua
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: General Use - Report SetsGeneral Use - Report Sets
+            ADT Name: Links Three Columns with Summary
+            ADT Name: CEMEX Hoy - Cards Three Columns
+            ADT Name: Management Team ADT
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Panama
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards brands logo
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: CarouselCarousel
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: General Use - Report SetsGeneral Use - Report Sets
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: Gallery Two Columns
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Management Team ADT
+            ADT Name: One Column River of Links
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages DropdownPages Dropdown
+            ADT Name: Site Map Training HubSite Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Peru
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Page Links Two Columns
+            ADT Name: CarouselCarousel
+            ADT Name: Gallery Three Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: CertificacionesCertificaciones
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: Links Three Columns with Summary
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Spain
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Cards Three Columns
+            ADT Name: Carousel
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Two Column River of LinksTwo Column River of Links
+            ADT Name: Two Column River of Links with Offset
+            ADT Name: Brands Carousel
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: PRUEBA 3 COLUMNAS - Page Links Three Columns with Summary
+            ADT Name: Page Links Three Columns Images PRUEBA
+            ADT Name: Page with form
+            ADT Name: List of Locations by Area
+            ADT Name: Hero v2
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel Component
+            ADT Name: Product Range Component
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+            ADT Name: FIA sitemap
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: PRUEBA Navigation Tabs - Black
+            ADT Name: Sticky Nav - 2 without Concrete
+            ADT Name: CEMEX Mega Menu v2
+            ADT Name: Sticky Nav - Presupuestos
+            ADT Name: Sticky Nav - ELOQUA
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX
+            ADT Name: Breadcrumb CEMEX - Red
+            ADT Name: Breadcrumb CEMEX - Deep Blue
+
+SiteName: ConstruHub
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Projects Gallery
+            ADT Name: Related Projects
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Construhub Main Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Construhub BreadcrumbConstruhub Breadcrumb
+
+SiteName: El Salvador
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Gallery Three ColumnsGallery Three Columns
+            ADT Name: CarouselCarousel
+            ADT Name: Gallery Two Columns
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Management Team ADT
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Construrama
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Blog - Filtro - Mes - Anio - Navegacion categorias
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Construtips - Blogs - Asset Publisher
+      ClassName: com.liferay.blogs.kernel.model.BlogsEntry
+            ADT Name: Blogs - Construtips ADT
+
+SiteName: CEMEX Puerto Rico
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Two Column River of LinksTwo Column River of Links
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: Gallery Three ColumnsGallery Three Columns
+            ADT Name: CarouselCarousel
+            ADT Name: Gallery Two ColumnsGallery Two Columns
+            ADT Name: Links Three Columns with Summary
+            ADT Name: One Column River of Links
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: CEMEX Mega Menu v2
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Dominican Republic
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Page Links Two Columns
+            ADT Name: Two Column River of LinksTwo Column River of Links
+            ADT Name: Page Links One Column
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two ColumnsGallery Two Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Carousel
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Small Carousel - Home
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training HubSite Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Croatia - Backup
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three ColumnsCards Three Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Brands CarouselBrands Carousel
+            ADT Name: Links RowLinks Row
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: Gallery Three ColumnsGallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT template
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: List of Locations by Area
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages DropdownPages Dropdown
+            ADT Name: Site Map Training HubSite Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: Cemex megamenu v2
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section ColorBreadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color GrayBreadcrumb CEMEX - Color Gray
+
+SiteName: CEMEX Latvia
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+            ADT Name: Categories DropdownCategories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links Row
+            ADT Name: Brands Carousel
+            ADT Name: Carousel
+            ADT Name: Cards Three Columns
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Page Links One Column
+            ADT Name: Page Links Two Columns
+            ADT Name: module ADT template
+            ADT Name: Testimonial
+            ADT Name: Gallery Two Columns with Summary
+            ADT Name: Gallery Three Columns
+            ADT Name: Cards brands logo
+            ADT Name: One Column River of Links
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Page Links Two ColumnsPage Links Two Columns
+            ADT Name: Page Links One ColumnPage Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: One Column River of LinksOne Column River of LinksOne Column River of Links
+            ADT Name: Brands CarouselBrands Carousel
+            ADT Name: Links RowLinks Row
+            ADT Name: Cards brands logoCards brands logoCards brands logo
+            ADT Name: Gallery Three ColumnsGallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT templatemodule ADT template
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Cards Three Columns - No ImageCards Three Columns - No Image
+            ADT Name: Documents and downloads - LV
+            ADT Name: Carousel - LV
+            ADT Name: List of Locations by Area
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training Hub
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training HubSite Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu 3
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Slide Navigation Menu
+            ADT Name: Navigation Tabs
+            ADT Name: CEMEX Mega Menu a
+            ADT Name: Navigation TabsNavigation TabsNavigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation MenuSlide Navigation Menu
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry
+            ADT Name: lang selector TXT
+            ADT Name: Dropdown Short Text
+
+SiteName: CEMEX Colombia
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+            ADT Name: TEMP Categories Dropdown
+            ADT Name: General Categories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links One Column
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Page Links Two Columns
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Cards Three Columns
+            ADT Name: Gallery Three Columns
+            ADT Name: Cards brands logo
+            ADT Name: Carousel
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: General Use - Report Sets
+            ADT Name: TEMP Cards Three Columns
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Management Team ADT
+            ADT Name: Page Links Two Columns Images no offsets
+            ADT Name: CEMEX te cuenta
+            ADT Name: CEMEX te cuenta - Page Links Two Columns Images
+            ADT Name: List of Locations by Area
+            ADT Name: Cards - Contain Img Background
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Site Map Training Hub
+            ADT Name: Pages DropdownPages Dropdown
+            ADT Name: Site map colored background
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation Menu
+            ADT Name: Navigation Tabs Plain Text
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEXBreadcrumb CEMEX
+
+SiteName: CEMEX Mexico
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories Dropdown
+            ADT Name: Soluciones para la Infraestructura - Categories Navigation
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: Carousel
+            ADT Name: Page Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: One Column River of Links
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Cards brands logo
+            ADT Name: Gallery Three Columns
+            ADT Name: Gallery Two Columns with Summary
+            ADT Name: Testimonial
+            ADT Name: Links Two Columns with Summary
+            ADT Name: Reconocimiento
+            ADT Name: Certificaciones
+            ADT Name: Links Three Columns with Summary
+            ADT Name: Related Content
+            ADT Name: Four Blocks Display
+            ADT Name: Grey Blocks Two Columns Image Left
+            ADT Name: Color Blocks Two Columns Image Left
+            ADT Name: Blocks Two Columns Image Left
+            ADT Name: Four Stories Block
+            ADT Name: Patrimonio Hoy - Noticias
+            ADT Name: Infraestructura - Home Carrusel
+            ADT Name: Transformistas - Tarjetas Imagen Background
+            ADT Name: Videoteca
+            ADT Name: Infraestructura - Home Youtube Banner
+            ADT Name: CEMEX - Cards Three Columns
+            ADT Name: Home - Latest News
+            ADT Name: Gallery Three Columns Two Buttons
+            ADT Name: Gallery Four Columns
+            ADT Name: Links one column - External link
+            ADT Name: List of Locations by Area
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training Hub
+            ADT Name: Simple Black Site Map
+            ADT Name: Site Map
+            ADT Name: Site map FiA
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation Tabs
+            ADT Name: Slide Navigation Menu
+            ADT Name: Navigation Tabs Grey
+            ADT Name: Navigation Tabs Blue
+            ADT Name: Navigation Tabs Green
+            ADT Name: Navigation Tabs Red
+            ADT Name: Navigation Tabs Yellow
+            ADT Name: neogem menu
+            ADT Name: cemex-evolution-adt-n01-main-nav
+            ADT Name: Navigation Tabs with Slick
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX
+            ADT Name: Breadcrumb CEMEX - Red
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs
+
+SiteName: CEMEX France 2020
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Links row
+            ADT Name: Card three columns
+            ADT Name: Carousel - Homepage (from UK)
+            ADT Name: Four column Product Range listing
+            ADT Name: Documents médias presse
+            ADT Name: Documents and downloads FR - from cz site
+            ADT Name: Documents and downloads FR - from cz site no filter
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel Component
+            ADT Name: Product Range component
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages dropdown
+            ADT Name: Site map FiA
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: Cemex MEGAMENU v2
+            ADT Name: Navigation Tabs
+            ADT Name: Navigation tabs - black
+            ADT Name: Neogem - Navigation
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrum CEMEX - Color Red
+
+SiteName: CEMEX France
+      ClassName: com.liferay.asset.kernel.model.AssetCategory
+            ADT Name: Categories DropdownCategories Dropdown
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: CarouselCarouselCarousel
+            ADT Name: Global Carouselglobal-carouselglobal-carousel
+            ADT Name: DomainsDomainesDomaines
+            ADT Name: Carousel - ArrowsCarousel - Arrows
+            ADT Name: NewsNews
+            ADT Name: Page Links Two Columns
+            ADT Name: Page Links One Column
+            ADT Name: CarouselCarousel
+            ADT Name: Page Links Two Columns ImagesPage Links Two Columns Images
+            ADT Name: Cards Three Columns
+            ADT Name: One Column River of LinksOne Column River of Links
+            ADT Name: Brands Carousel
+            ADT Name: Links Row
+            ADT Name: Cards brands logoCards brands logo
+            ADT Name: Gallery Three ColumnsGallery Three Columns
+            ADT Name: Gallery Two Columns with SummaryGallery Two Columns with Summary
+            ADT Name: TestimonialTestimonial
+            ADT Name: module ADT templatemodule ADT template
+            ADT Name: Links Two Columns with Summary
+            ADT Name: List PaginationList Pagination
+            ADT Name: MenuMenu
+            ADT Name: Pagination CategoriesPagination Categories
+            ADT Name: Location ListLocation List
+            ADT Name: Documents médias presseDocuments médias presse
+            ADT Name: Carousel - Arrows - LightgalleryCarousel - Arrows - Lightgallery
+            ADT Name: Neogem - Page Links Three Columns with Summary
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages DropdownPages DropdownPages Dropdown
+            ADT Name: Site Map Training HubSite Map Training HubSite Map Training Hub
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega MenuCEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation Tabs
+            ADT Name: Slide Navigation MenuSlide Navigation Menu
+            ADT Name: MenuMenu
+            ADT Name: Neogem - Navigation
+            ADT Name: Navigation Tabs - Black CTAs
+            ADT Name: Navigation Tabs - Red CTAs
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrumb CEMEX - Red
+            ADT Name: Breadcrumb CEMEX - Blue
+            ADT Name: Breadcrumb CEMEX - Blue test
+
+SiteName: CEMEX Poland
+      ClassName: com.liferay.asset.kernel.model.AssetEntry
+            ADT Name: Carousel Hero
+            ADT Name: Projects Carousel
+            ADT Name: Links Row
+            ADT Name: Related Documents
+            ADT Name: Cards Three Columns
+            ADT Name: Links Two Columns with SummaryLinks Two Columns with Summary
+            ADT Name: Job Vacancies
+            ADT Name: Neogem - Page Links Three Columns with Summary
+            ADT Name: List of locations by area
+            ADT Name: Cards 4 columns - media
+            ADT Name: Cards 4 columns - media homepage
+            ADT Name: Carousel
+            ADT Name: Carousel Component
+            ADT Name: Product Range Component
+      ClassName: com.liferay.portal.kernel.model.LayoutSet
+            ADT Name: Pages Dropdown
+            ADT Name: Site Map Training HubSite Map Training HubSite Map Training Hub
+            ADT Name: FIA-Sitemap
+      ClassName: com.liferay.portal.kernel.theme.NavItem
+            ADT Name: CEMEX Mega Menu
+            ADT Name: Navigation TabsNavigation TabsNavigation Tabs
+            ADT Name: Neogem Navigation Menu
+            ADT Name: Navigation Tabs - Black
+            ADT Name: CEMEX Mega Menu v2
+            ADT Name: cemex-evolution-adt-n01-main-nav
+      ClassName: com.liferay.portal.kernel.servlet.taglib.ui.BreadcrumbEntry
+            ADT Name: Breadcrumb CEMEX - Section Color
+            ADT Name: Breadcrumb CEMEX - Color Gray
+            ADT Name: Breadcrumb CEMEX - Color Red
+            ADT Name: Breadcrumb CEMEX - Color Blue
+            ADT Name: cemex-evolution-adt-n05-breadcrumbs

@@ -1,0 +1,49 @@
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+import com.liferay.portal.kernel.service.PortletPreferencesLocalServiceUtil;
+
+def count = GroupLocalServiceUtil.getGroupsCount();
+def group = GroupLocalServiceUtil.getGroups(0,count);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+
+def customPortlets = ["FORM_QUOTATION", "FormCareer", "FORM_RGPD", "FORM_MAINTENANCE_RENOVATION", "FORM_EVENT_REGISTRATION", "FORM_APPOINTMENT_REQUEST", "FormCommercialContact", "FORM_DOCUMENTATION_REQUEST", "FORM_CONTACT", "FORM_INFORMATION_REQUEST", "CEMEX_SELF_LEVELING_FLOOR_CALCULATOR", "FormExperensol", "CEMEX_MAP_SEARCH", "cemexco2portlet_WAR_cemexco2001SNAPSHOT", "CEMEX_READYMIX_CONCRETE_CALCULATOR", "cemexformdataforwarderadminpanelapp", "CEMEX_QUERY_STRING_FORM", "CEMEX_UK_SELF_LEVELING_FLOOR_CALCULATOR", "com_liferay_user_associated_data_web_portlet_UserAssociatedData", "com_liferay_analytics_settings_web_portlet_AnalyticsAdminPortlet", "srv", "com_mediamonks_cemex_ctablock_web_BlockCtaPortlet", "com_mediamonks_cemex_articleList_web_ArticleListPortlet", "com_mediamonks_cemex_herohome_web_HeroHomePortlet", "com_mediamonks_cemex_productGrid_web_ProductGridPortlet", "article","product", "com_mediamonks_cemex_categoryextra_web_CategoryExtraPortlet", "contactPortlet", "com_mediamonks_cemex_successCaseList_web_SuccessCaseListPortlet", "com_mediamonks_cemex_herosearch_web_HeroSearchPortlet", "com_mediamonks_cemex_heropas_web_HeroPasPortlet", "com_mediamonks_cemex_featurecontentcard_web_FeatureContentCardPortlet", "successCase", "com_mediamonks_cemex_productList_web_ProductListPortlet", "com_mediamonks_cemex_relatedcards_web_RelatedCardsPortlet", "com_mediamonks_cemex_srvList_web_SrvListPortlet", "com_mediamonks_cemex_evolution_backoffice_product_BackofficeProductPortlet", "com_mediamonks_cemex_evolution_backoffice_solution_BackofficeSolutionPortlet", "com_mediamonks_cemex_evolution_web_search_CemexEvolutionWebSearchPortlet", "com_mediamonks_cemex_evolution_web_solutions_catalogue_CemexEvolutionWebSolutionsCataloguePortlet", "com_mediamonks_cemex_evolution_web_documentation_center_CemexEvolutionWebDocumentationCenterPortlet", "com_mediamonks_cemex_evolution_backoffice_productline_BackofficeProductLinePortlet", "com_mediamonks_cemex_evolution_web_modules_showcase_WebModulesShowcasePortlet", "com_mediamonks_cemex_evolution_backoffice_srv_BackofficeSrvPortlet", "com_mediamonks_cemex_evolution_web_catalogue_WebCataloguePortlet", "com_mediamonks_cemex_evolution_web_documentation_widget_WebDocumentationWidgetPortlet", "com_mediamonks_cemex_evolution_web_request_a_quote_CemexEvolutionWebRequestAQuoteFormPortlet", "com_mediamonks_cemex_evolution_web_contact_form_CemexEvolutionWebContactFormPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_richtextmultimedia_CemexEvolutionWebPagetemplateRichTextMultimediaPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_manage_multimedia_CemexEvolutionWebPageTemplateManageMultimediaPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_products_variants_CemexEvolutionWebPageTemplateProductsVariantsPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_cards_CemexEvolutionWebPageTemplateCardsPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_content_hero_unit_CemexEvolutionWebPageTemplateContentHeroUnitPortlet", "com_mediamonks_cemex_evolution_web_pagetemplate_halftext_CemexEvolutionWebPageTemplateHalfTextPortlet", "com_mediamonks_cemex_evolution_web_map_search_CemexMapSearchPortlet", "com_mediamonks_cemex_evolution_web_personalized_product_display_WebPersonalizedProductDisplayPortlet", "com_mediamonks_cemex_evolution_web_featured_products_WebFeaturedProductsPortlet", "vertua_calculator"]
+
+
+for(site in group)
+{
+    def siteName =  site.getGroupKey();
+    def siteId = site.getGroupId();
+    def siteNameFlag = 0;
+    if(pattern.matcher(siteName).matches())
+   {
+       def pageCount = LayoutLocalServiceUtil.getLayoutsCount(site,false);
+      def allPages = LayoutLocalServiceUtil.getLayouts(siteId,false);
+   
+      for(page in allPages)
+     {
+           def pageName=page.getName().replaceAll("\\<.*?>", "");
+           
+               def portletUsed = PortletPreferencesLocalServiceUtil.getPortletPreferencesByPlid(page.plid);
+                for(portlet in portletUsed)
+               {
+                      for(def i=0;i<customPortlets.size();i++)
+                      {
+                               if(portlet.portletId.contains(customPortlets[i]) && !portlet.portletId.contains("com_liferay_dynamic_data_lists_form_web_portlet_DDLFormPortlet") && !portlet.portletId.contains("com_liferay_product_navigation") && !portlet.portletId.contains("com_liferay_journal_content_web_portlet_JournalContentPortlet") && !portlet.portletId.contains("com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet") && siteNameFlag==0)
+                             {
+                                   out.println("*****************************************************************************");
+                                   out.println("Site Name: "+ site.getGroupKey()+ " ,  Site ID:"+site.getGroupId());
+                                   siteNameFlag=1;
+                              }
+                               if(portlet.portletId.contains(customPortlets[i]) && !portlet.portletId.contains("com_liferay_dynamic_data_lists_form_web_portlet_DDLFormPortlet") && !portlet.portletId.contains("com_liferay_product_navigation") && !portlet.portletId.contains("com_liferay_journal_content_web_portlet_JournalContentPortlet") && !portlet.portletId.contains("com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"))
+                             {
+                                   out.println("   Page name : " +page.getName().replaceAll("\\<.*?>", "")+"  PageID: "+page.plid); 
+                                  out.println("        Portlet Name : "+portlet.portletId);
+                              }
+                      }
+                  }
+
+       }
+  
+
+}
+}

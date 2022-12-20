@@ -1,0 +1,54 @@
+import com.liferay.journal.service.JournalArticleLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.service.DDMFieldLocalServiceUtil;
+import com.liferay.document.library.kernel.service.DLFileEntryLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.storage.DDMFormValues;
+import com.liferay.dynamic.data.mapping.storage.DDMFormFieldValue;
+import com.liferay.dynamic.data.mapping.model.Value;
+
+import com.liferay.dynamic.data.mapping.model.LocalizedValue;
+import com.liferay.journal.model.JournalArticle;
+def data = ["{h1}","{h2}","{h3}"]
+def article = JournalArticleLocalServiceUtil.getArticle(20121,"47941");
+def ddmStructure =  article.getDDMStructure();
+def ddmForm = ddmStructure.getDDMForm();
+def ddmFormValues = DDMFieldLocalServiceUtil.getDDMFormValues(ddmForm, article.getId());
+def ddmFormFieldValues = ddmFormValues.getDDMFormFieldValues();
+List<DDMFormFieldValue> ddmf  = new ArrayList<DDMFormFieldValue>();
+
+for(dffv in ddmFormFieldValues)
+{
+     ddmf.add(dffv);
+} 
+for(d in ddmf)
+{
+                 out.println("data: "+d.getValue().getString() );
+}
+
+  for(def d in data)
+   {
+         out.println("d:" + d);
+         for(def doc in ddmFormFieldValues )
+          {
+                  if(doc.getFieldReference()=="Text38705711")
+                   {
+                        DDMFormFieldValue df = new DDMFormFieldValue();
+
+                         LocalizedValue v =new LocalizedValue();
+                          v.addString(v.getDefaultLocale() ,d);
+                          df.setValue(v);
+                          df.setFieldReference(doc.getFieldReference());
+                          df.setName("Text38705711");
+                          ddmf.add(df);
+                         break;
+                    }
+              }
+}
+
+
+for( docss in ddmf)
+{
+                 out.println("Data AFTER:   "+docss.getValue().getString());
+
+}
+ddmFormValues.setDDMFormFieldValues(ddmf);
+DDMFieldLocalServiceUtil.updateDDMFormValues(47933,article.getId(),ddmFormValues);

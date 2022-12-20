@@ -1,0 +1,32 @@
+import com.liferay.portal.kernel.service.ClassNameLocalServiceUtil;
+import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutSetLocalServiceUtil;
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+ 
+def classCount = ClassNameLocalServiceUtil.getClassNamesCount();
+def  classes  = ClassNameLocalServiceUtil.getClassNames(0, classCount);
+def classNameId = ClassNameLocalServiceUtil.getClassNameId("com.liferay.portlet.display.template.PortletDisplayTemplate") ;
+
+def tempCount = DDMTemplateLocalServiceUtil.getDDMTemplatesCount();
+def  templates  = DDMTemplateLocalServiceUtil.getDDMTemplates(0,tempCount);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+out.println("classNameid ="+classNameId);
+for(cl in classes)
+{
+        def flag = 0;
+        for(temp in templates)
+       {
+ 
+             if(flag==0 && cl.classNameId==temp.classNameId && temp.getResourceClassNameId() == classNameId &&   !pattern.matcher(temp.getTemplateKey()).matches()) 
+             {
+                     out.println("ClassName: "+cl.value);
+                     flag = 1;
+              }
+        
+            if(cl.classNameId==temp.classNameId && temp.getResourceClassNameId() == classNameId &&   !pattern.matcher(temp.getTemplateKey()).matches())
+            {         
+                     out.println(" ADT name: "+temp.name.replaceAll("\\<.*?>", ""));         
+            }
+       }
+}

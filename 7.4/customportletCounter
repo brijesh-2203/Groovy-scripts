@@ -1,0 +1,52 @@
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+import com.liferay.portal.kernel.service.PortletPreferencesLocalServiceUtil;
+
+def count = GroupLocalServiceUtil.getGroupsCount();
+def group = GroupLocalServiceUtil.getGroups(0,count);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+
+def customPortlets = ["com_liferay_docs_guestbook_portlet_GuestbookPortlet":0,"com_task_demo_MVCTaskPortlet":0,"com_demo_DemoPortlet":0,"product_search_Product_SearchPortlet":0,"panelappdemo_PanelAppDemoPortlet":0,"languagemodule_LanguageModulePortlet":0];
+
+for(site in group)
+{
+    def siteName =  site.getGroupKey();
+    def siteId = site.getGroupId();
+ 
+    if(pattern.matcher(siteName).matches())
+   {
+       def pageCount = LayoutLocalServiceUtil.getLayoutsCount(siteId);
+      def allPages = LayoutLocalServiceUtil.getLayouts(siteId,0,pageCount,null);
+   
+      for(page in allPages)
+     {
+           def pageName=page.getName().replaceAll("\\<.*?>", "");
+           
+               def portletUsed = PortletPreferencesLocalServiceUtil.getPortletPreferencesByPlid(page.plid);
+                for(portlet in portletUsed)
+               {
+                      for(e in customPortlets)
+                      {
+                               if(portlet.portletId.contains(e.key) )
+                             {
+                                //  out.println("Portlet Name : "+portlet.portletId);
+                                   e.value = e.value +1 ;
+                                  // out.println("count:  "+e.value);
+                                //  out.println("*****************************************************************************");
+                              }
+                      }
+                  }
+
+       }
+  
+
+}
+}
+    for(e in customPortlets)
+                      {
+                              
+                                  out.println("Portlet Name : "+e.key+"    count: "+e.value);
+                                 
+                                  out.println("*****************************************************************************");
+                             
+                      }

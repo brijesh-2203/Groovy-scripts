@@ -1,0 +1,57 @@
+import com.liferay.portal.kernel.service.LayoutSetLocalServiceUtil;
+import com.liferay.portal.kernel.service.ThemeLocalServiceUtil;
+import com.liferay.portal.kernel.service.GroupLocalServiceUtil;
+import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
+
+
+def themes = ThemeLocalServiceUtil.getThemes(20097) ;
+out.println("Available Themes:");
+for(def theme in themes)
+{
+   out.println("Theme Name: "+theme.getName()+",   Theme Id : " +theme.getThemeId());
+}
+
+//def warthemes = ThemeLocalServiceUtil.getWARThemes();
+//out.println("Available Themes:");
+
+//for(def theme in warthemes)
+//{
+   //out.println("Theme Name: "+theme.getName()+",   Theme Id : " +theme.getThemeId());
+//}
+
+out.println("************************************************************************************");
+out.println("Site Wise Theme Applied:  "); 
+
+def siteCount = GroupLocalServiceUtil.getGroupsCount();
+def group = GroupLocalServiceUtil.getGroups(0,siteCount);
+def pattern = ~/.*[a-zA-Z]+.*/ ;
+for(site in group)
+{
+   def siteName =  site.getGroupKey();
+    def siteId = site.getGroupId();
+ 
+    if(pattern.matcher(siteName).matches())
+   {
+         def siteTheme = LayoutSetLocalServiceUtil.getLayoutSet(siteId,false); 
+         out.println("SiteName: " +siteName+",    Site Theme: " +siteTheme.getTheme().getName());
+
+       def pageCountSiteWise = LayoutLocalServiceUtil.getLayoutsCount(siteId);
+      def allPagesSiteWise = LayoutLocalServiceUtil.getLayouts(siteId,0,pageCountSiteWise,null);
+
+             for(page in allPagesSiteWise)
+             {
+                     out.println("   Page Name: "+page.getName().replaceAll("\\<.*?>", "")+",   Page Theme:   "+page.getTheme().getName());
+              }
+    }
+}
+
+out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+out
+out.println("Page Wise Theme Applied:  "); 
+def pagecount = LayoutLocalServiceUtil.getLayoutsCount();
+def allPages = LayoutLocalServiceUtil.getLayouts(0,pagecount);
+out.println("Page Count: "+pagecount);
+for(def page in allPages)
+{
+     out.println("   Page Name: "+page.getName().replaceAll("\\<.*?>", "")+",   Page Theme:   "+page.getTheme().getName());
+}
